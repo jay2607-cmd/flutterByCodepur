@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class home extends StatelessWidget {
+class Home extends StatelessWidget {
   int day = 10;
   var name = "jay";
   
