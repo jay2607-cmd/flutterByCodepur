@@ -12,19 +12,22 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+      debugShowCheckedModeBanner: false,
+
       themeMode: ThemeMode.light,
       theme: ThemeData(primarySwatch: Colors.deepPurple,
           fontFamily: GoogleFonts.lato().fontFamily,
       ),
+
       darkTheme: ThemeData(
         brightness: Brightness.light, // Brightness.dark for darkmode
       ),
-    initialRoute:"/login",
+      
+    initialRoute:MyRoute.homeRoute,
     routes: {
       "/" :(context) => LoginPage(),
       MyRoute.homeRoute : (context) => Home(),
