@@ -1,0 +1,43 @@
+[
+{
+    "id" : "jay01",
+    "name" : "iphone13",
+    "price" : 999,
+    "description" : "Apple Iphone 13 with ios16 update",
+    "color": "#7FFF00",
+    "image": "https://m.media-amazon.com/images/I/61-r9zOKBCL._SL1500_.jpg"
+},
+{
+    "id" : "jay02",
+    "name" : "iphone12",
+    "price" : 899,
+    "description" : "Apple Iphone 12 with ios16 update",
+    "color": "#FF0000",
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-red-select-2020?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1604343703000"
+},
+{
+    "id" : "jay03",
+    "name" : "iphone11",
+    "price" : 859,
+    "description" : "Apple Iphone 11 with ios16 update",
+    "color": "#00008B",
+    "image": "https://cdn.shopify.com/s/files/1/0409/7245/products/skyblue_1_77898869-1534-4d0a-b4eb-c86610ddbe7f_grande.png?v=1603816910"
+},
+{
+    "id" : "jay04",
+    "name" : "iphone10",
+    "price" : 799,
+    "description" : "Apple Iphone 10 with ios15 update",
+    "color": "#FFFFFF",
+    "image": "https://s3b.cashify.in/gpro/uploads/2019/07/04131233/apple-iphone-x-005.jpg"
+},
+{
+    "id" : "jay05",
+    "name" : "iphone8",
+    "price" : 799,
+    "description" : "Apple Iphone 8 with ios16 update",
+    "color": "#000000",
+    "image": "https://beyondapple.in/wp-content/uploads/2021/05/refurb-iphone8plus-spacegray.jpg"
+}
+
+]
