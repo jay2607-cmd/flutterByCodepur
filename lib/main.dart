@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:practice/pages/login_page.dart';
 import 'package:practice/pages/utils/routes.dart';
+import 'package:practice/widgets/theme.dart';
 import 'pages/home_page.dart';
 
 void main() {
@@ -19,14 +20,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       themeMode: ThemeMode.light,
-      theme: ThemeData(primarySwatch: Colors.deepPurple,
-          fontFamily: GoogleFonts.lato().fontFamily,
-      ),
+      
+      theme: MyTheme.lightTheme,
 
       darkTheme: ThemeData(
         brightness: Brightness.light, // Brightness.dark for darkmode
+        
       ),
-      
+
     initialRoute:MyRoute.homeRoute,
     routes: {
       "/" :(context) => LoginPage(),
